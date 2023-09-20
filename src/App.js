@@ -6,7 +6,6 @@ function App() {
   const [images, setImages] = useState([]);
   const [page, setPage] =useState(1);
   
-  
   const url = 
   `https://api.unsplash.com/photos/random?client_id=KG11Ji8ZfLZDw-UPFOMz6FkO8JJekN_HtxzFoHh1_bA&count=9&page=${page}`;
 
